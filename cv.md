@@ -1,4 +1,4 @@
-1. **Stanislav Shkradov**
+1. ## Stanislav Shkradov
 ---
 2. **Email:** studingDev@gmail.com
  **Discord:** StasDevel#9969
@@ -12,7 +12,7 @@
     };<br/>
     console.log(multiply(2,3));<br/>
 
-6.  Previously did not work as a Junior Dev. Proj.: https://github.com/StasDevel/rsschool-cv.git
+6.   Previously did not work as a Junior Dev. [Proj.=>](https://github.com/StasDevel/rsschool-cv.git)
 
 7. Higher legal education.
 
