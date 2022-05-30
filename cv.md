@@ -1,4 +1,6 @@
 1. ## Stanislav Shkradov
+![image](https://avatarko.ru/img/kartinka/9/ochki_galstuk_panda_8719.jpg)
+
 ---
 2. **Email:** studingDev@gmail.com
  **Discord:** StasDevel#9969
