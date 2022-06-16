@@ -9,109 +9,160 @@ body {
     min-height: 100vh;
     margin: 0; 
     padding: 0;
-    display: flex;
-    flex-direction: column;
-    background-image: url(back.jpg);
 }
 * {
     box-sizing: border-box;
   }
 
-  main {
-    flex: 1 0 auto;
-  }
-
-  footer {
-    flex-shrink: 0;
-  }
-
-
- .Name {
-      color: #fff;
-      font-weight: bold;
-      font-size: 50px;
-  }
-
   header {
-      border-bottom: 1px solid rgb(163, 148, 148);
-      width:90%;
-      margin: auto;
-      padding-left: 30px;
+    background-color: #242424;
   }
 
-  .photo {
-      width: 500px ;
-      height: auto;
-      margin: 15px 35px 15px 0;
-      border-radius: 10%;
-  }
-
-  .mainContainer  {
-    margin: auto;
-    width:90%;
-    padding-left: 25px;
-    display: flex;
-  }
-
-  .mainContainer nav {
-    border-left: 1px solid rgb(163, 148, 148);
-    height: 90%;
-    margin: auto auto;
-    padding-left: 30px;
-  }
-  p {
-    color: #fff;
-    font-size: 25px;
-  }
-  li {
-    line-height: 1.8;
-    text-indent: 1.5em;
-    color: #fff;
-    font-size: 25px;
-    
-   }
-   ul {
-    margin-left: 0; 
-    padding-left: 0; 
-   }
-
-  code {
-    color: #fff;
-    font-size: 25px;
-    line-height: 1;
-  }
-
-  li a {
-      text-decoration: none;
-  }
-
-  li span {
-    font-weight: bold;
-  }
-
-  footer {
-        border-top: 1px solid rgb(163, 148, 148);
-        width:90%;
-        margin: auto;
-        padding-left: 25px;
-  }
-
-  footer .container {
+ header .container {
+    margin: 0 auto;
+    width: 70%;
+    height: 600px;
     display: flex;
     justify-content: center;
+    align-items: center;
+ }
+ .rightSideHead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+ }
+ 
+ .rightSideHead img {
+    height: 600px;
+    width: auto;
+    box-shadow: 20px 15px 0 #f06800;;
+    
+ }
+
+ .leftSideHead {
+    padding: 50px 0 0 0;
+    width: 50%;
+ }
+
+ .leftSideHead h1 {
+     font-size: 3.5rem;
+     color: #ffff;
+ }
+ 
+ .leftSideHead h2 {
+    color: #f06800;
+    text-transform: uppercase;
+    font-size: 2 rem;
+}
+
+.leftSideHead .wb {
+    font-size: 1.6rem;
+    color: #ffff;
+}
+
+.leftSideHead p {
+    font-size: 1.8rem;
+    color: #f06800;
+}
+
+.leftSideHead a {
+    font-size: 1.8rem;
+    color: #f06800;
+    
+}
+
+.googleImg {
+    display: flex;
+    align-items: center;
+}
+
+
+.disImg {
+    display: flex;
+    align-items: center;
+    
+}
+
+main {
+    width: 70%;
+    margin: 0 auto;
+    padding: 90px 0;
+}
+
+.desc {
+    font-size: 1.3rem;
+    width: 60px;
+    height: 250px;
+    background-color: #242424;
+    color: #ffff;
+    writing-mode: vertical-rl;
+    transform: scale(-1);
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main div {
+    display: flex;
+    
+}
+
+.cont {
+    border-right: 4px solid #f06800;
+    height: 250px;
+    margin: 40px 0;
+}
+
+.descText {
+    padding-left: 20px;
+    height: 250px;
+    width: 80%;
+    background-color: #d4d4d4;
+    margin-left: 250px;
+    margin-right: 30px;
+    font-size: 2rem;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+}
+
+li span {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #242424;
   }
 
-  footer div {
-      margin: 20px 40px 20px 40px;
-  }
-
-  .myGit {
+footer .container {
+    margin: 0 auto;
+    width: 70%;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 2rem;
     color: #fff;
-    font-size: 25px;
-    text-decoration: none;
-  }
+}
 
-  .rsSchool img{
-    width: 70px;
+
+
+.gitImg {
+    width: 60px;
     height: auto;
-  }
+    color: #fff;
+}
+
+.myGit {
+    color: #f06800;
+    text-decoration: none;
+}
+
+.rsSchool img {
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
+}
+
