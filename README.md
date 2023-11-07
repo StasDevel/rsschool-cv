@@ -1,1 +1,1 @@
-# https://StasDevel.github.io/rsschool-cv/ 
+# rsschool-cv
